@@ -144,7 +144,8 @@
         <source-file src="libs/android/applovin-6.3.0.jar" target-dir="libs" />
         <source-file src="libs/android/chartboost-6.5.1.jar" target-dir="libs" />
         <source-file src="libs/android/flurry-analytics-6.5.0.jar" target-dir="libs" />
-        <source-file src="libs/android/my-target-4.5.10.jar" target-dir="libs" />
+        <!--source-file src="libs/android/my-target-4.5.10.jar" target-dir="libs" /-->
+        <framework src="com.my.target:mytarget-sdk:4.5.+"/>
         <source-file src="libs/android/yandex-metrica-2.51.jar" target-dir="libs" />
         <source-file src="libs/android/unity-ads-2.0.4.jar" target-dir="libs" />
         <framework src="libs/android/cheetah-mobile" custom="true" />
